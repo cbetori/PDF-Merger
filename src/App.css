@@ -1,0 +1,42 @@
+#app {
+  text-align: center;
+  height: 100vh;
+  background-color:  #282c34;
+  display: flex;
+  justify-content: center;
+}
+
+#container{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.buttons{
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+#header{
+  display: flex;
+  justify-content: flex-end;
+  width: 100vw;
+  margin-left: auto;
+  cursor: pointer;
+  margin-right: 20px;
+  -webkit-app-region: drag
+}
+
+.header{
+  margin-right: 20px;
+  color: whitesmoke;
+  font-size: 18pt;
+  opacity: .75;
+  -webkit-app-region: no-drag
+}
+
+.header:hover{
+  opacity: 1;
+}
